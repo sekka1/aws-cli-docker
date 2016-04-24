@@ -2,6 +2,8 @@
 
 Docker container with the AWS CLI installed.
 
+Using Alpin linux.  The Docker image is 30MB
+
 ## Getting your AWS Keys:
 
 [http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-set-up.html#cli-signup](http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-set-up.html#cli-signup)
@@ -53,7 +55,7 @@ output:
     docker run \
     --env AWS_ACCESS_KEY_ID=<<YOUR_ACCESS_KEY>> \
     --env AWS_SECRET_ACCESS_KEY=<<YOUR_SECRET_ACCESS>> \
-    garland/aws-cli-docker\
+    garland/aws-cli-docker \
     aws s3 ls
 
 output:

@@ -1,5 +1,5 @@
-FROM ubuntu:14.04.1
+FROM alpine:3.3
 
-RUN apt-get update
-RUN apt-get install -y python-pip groff
+RUN apk update
+RUN apk add python py-pip py-setuptools ca-certificates groff
 RUN pip install awscli
