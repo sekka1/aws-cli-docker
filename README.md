@@ -2,7 +2,7 @@
 
 Docker container with the AWS CLI installed.
 
-Using Alpin linux.  The Docker image is 30MB
+Using [Alpine linux](https://hub.docker.com/_/alpine/).  The Docker image is 30MB
 
 ## Getting your AWS Keys:
 
