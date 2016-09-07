@@ -8,7 +8,7 @@
 
 Docker container with the AWS CLI installed.
 
-Using [Alpine linux](https://hub.docker.com/_/alpine/).  The Docker image is 30MB
+Using [Alpine linux](https://hub.docker.com/_/alpine/).  The Docker image is 87MB
 
 An automated build of this image is on Docker Hub: https://hub.docker.com/r/garland/aws-cli-docker/
 
