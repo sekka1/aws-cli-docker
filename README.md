@@ -71,6 +71,20 @@ output:
     2014-06-03 19:41:30 folder1
     2014-06-06 23:02:29 folder2
 
+### Upload content of your current directory (say it contains two files _test.txt_ and _test2.txt_) to s3 bucket
+
+    docker run \
+    --env AWS_ACCESS_KEY_ID=<<YOUR_ACCESS_KEY>> \
+    --env AWS_SECRET_ACCESS_KEY=<<YOUR_SECRET_ACCESS>> \
+    -v $PWD:/data
+    garland/aws-cli-docker \
+    aws s3 --dryrun sync . s3://mybucket
+
+output:
+
+    (dryrun) upload: test.txt to s3://mybucket/test.txt
+    (dryrun) upload: test2.txt to s3://mybucket/test2.txt
+
 doc: http://docs.aws.amazon.com/cli/latest/reference/s3/index.html
 
 ### Retrieve a decrypted Windows password by passing in your private key
