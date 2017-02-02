@@ -107,3 +107,9 @@ Output:
     }
 
 doc: http://docs.aws.amazon.com/cli/latest/reference/ec2/get-password-data.html
+
+## Example Usage with Docker Compose:
+
+    echo AWS_ACCESS_KEY_ID=ID >> .env
+    echo AWS_SECRET_ACCESS_KEY=KEY >> .env
+    docker-compose run aws s3 ls
