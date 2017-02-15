@@ -76,9 +76,9 @@ output:
     docker run \
     --env AWS_ACCESS_KEY_ID=<<YOUR_ACCESS_KEY>> \
     --env AWS_SECRET_ACCESS_KEY=<<YOUR_SECRET_ACCESS>> \
-    -v $PWD:/data
+    -v $PWD:/data \
     garland/aws-cli-docker \
-    aws s3 --dryrun sync . s3://mybucket
+    aws s3 sync . s3://mybucket
 
 output:
 
