@@ -6,6 +6,14 @@
 [![Docker Pulls](https://img.shields.io/docker/pulls/garland/aws-cli-docker.svg)](https://hub.docker.com/r/garland/aws-cli-docker/)
 [![Docker Stars](https://img.shields.io/docker/stars/garland/aws-cli-docker.svg)](https://hub.docker.com/r/garland/aws-cli-docker/)
 
+
+# Supported tags and respective `Dockerfile` links
+
+- [`0.1` (*0.1/Dockerfile*)](https://github.com/sekka1/docker-s3cmd/blob/master/0.1/Dockerfile)
+
+
+# Description
+
 Docker container with the AWS CLI installed.
 
 Using [Alpine linux](https://hub.docker.com/_/alpine/).  The Docker image is 87MB
