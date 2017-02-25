@@ -9,7 +9,7 @@
 
 # Supported tags and respective `Dockerfile` links
 
-- [`0.1` (*0.1/Dockerfile*)](https://github.com/sekka1/docker-s3cmd/blob/master/0.1/Dockerfile)
+- [`0.1` (*0.1/Dockerfile*)](https://github.com/sekka1/aws-cli-docker/blob/0.1/0.1/Dockerfile)
 
 
 # Description
