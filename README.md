@@ -10,7 +10,17 @@
 # Supported tags and respective `Dockerfile` links
 
 - [`0.1` (*0.1/Dockerfile*)](https://github.com/sekka1/aws-cli-docker/blob/0.1/0.1/Dockerfile)
+- [`0.2` (*0.2/Dockerfile*)](https://github.com/sekka1/aws-cli-docker/blob/0.2/0.2/Dockerfile)
 
+# AWS CLI Version
+
+* 1.11.131
+
+# Build
+
+```
+docker build -t garland/aws-cli-docker:x.x .
+```
 
 # Description
 
